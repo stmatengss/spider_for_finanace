@@ -10,7 +10,7 @@ path='C:\Users\StMatengss\Desktop\learning\spliter'
 socket.setdefaulttimeout(20)
 
 names=[line[0:len(line)-1] for line in fileinput.input\
-      (path+'\New Text Document.txt')]
+      (path+'\B.txt')]
 for n,name in enumerate(names):
     if n%7==0 and n!=0:time.sleep(120)
     url='http://ichart.finance.yahoo.com/table.csv?s='+name+\

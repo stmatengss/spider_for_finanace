@@ -3,7 +3,7 @@ import urllib2
 import sys,re
 
 
-url=urllib.urlopen('http://www.eoddata.com/stocklist/NASDAQ/A.htm')
+url=urllib.urlopen('http://www.eoddata.com/stocklist/NASDAQ/B.htm')
 text=url.read()
 text=str(text)
 #<A href="/stockquote/NASDAQ/AXSM.htm" title="Display Quote &amp; Chart for NASDAQ,AXSM">AXSM</A></td>
